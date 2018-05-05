@@ -1,0 +1,22 @@
+{
+  "name": "p5_quiz",
+  "version": "1.0.0",
+  "description": "Proyect quiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "P5_Quiz"
+  },
+  "keywords": [
+    "Quiz"
+  ],
+  "author": "Daniel Vagace",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-generator": "^4.15.5"
+  }
+}
