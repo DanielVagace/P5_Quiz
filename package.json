@@ -1,22 +1,20 @@
 {
-  "name": "p5_quiz",
-  "version": "1.0.0",
-  "description": "Proyect quiz",
-  "main": "index.js",
+  "name": "p5-quiz",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "npm start"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "P5_Quiz"
-  },
-  "keywords": [
-    "Quiz"
-  ],
-  "author": "Daniel Vagace",
-  "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.16.3",
-    "express-generator": "^4.15.5"
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "express-partials": "^0.3.0",
+    "morgan": "~1.9.0",
+    "sequelize": "^4.37.6",
+    "serve-favicon": "~2.4.5",
+    "sqlite3": "^4.0.0"
   }
 }
